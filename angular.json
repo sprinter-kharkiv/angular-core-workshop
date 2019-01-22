@@ -9,7 +9,10 @@
       "versionMismatch": false
     },
     "defaultCollection": "@nrwl/schematics"
-    
   },
-  "schematics": {}
+  "schematics": {
+    "@nrwl/schematics:component": {
+      "styleext": "scss"
+    }
+  }
 }
