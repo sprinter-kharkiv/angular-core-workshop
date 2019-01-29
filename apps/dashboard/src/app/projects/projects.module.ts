@@ -5,6 +5,8 @@ import { ProjectsRoutingModule } from './projects-routing.module';
 import { ProjectsComponent } from './projects.component';
 import { LibsMaterialModule } from '@workshop/libs/material';
 
+
+
 @NgModule({
   declarations: [ProjectsComponent],
   exports: [ProjectsComponent],
