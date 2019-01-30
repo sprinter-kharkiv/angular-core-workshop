@@ -1,9 +1,9 @@
+import { LibsMaterialModule } from '@workshop/libs/material';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ProjectsRoutingModule } from './projects-routing.module';
 import { ProjectsComponent } from './projects.component';
-import { LibsMaterialModule } from '@workshop/libs/material';
 
 
 

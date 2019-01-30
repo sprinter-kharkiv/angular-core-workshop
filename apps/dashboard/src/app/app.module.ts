@@ -3,16 +3,9 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import { RouterModule } from '@angular/router';
 import { NxModule } from '@nrwl/nx';
 import { LibsMaterialModule } from '@workshop/libs/material';
 import { LibsUiLoginModule } from '@workshop/libs/ui-login';
-
-
-import { HomeModule } from './home/home.module';
-import { ProjectsModule } from './projects/projects.module';
-import { CustomersModule } from './customers/customers.module';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
@@ -23,10 +16,9 @@ import { AppComponent } from './app.component';
     BrowserModule,
     NxModule.forRoot(),
     BrowserAnimationsModule,
+    FormsModule,
+    HttpClientModule,
     LibsMaterialModule,
-    HomeModule,
-    ProjectsModule,
-    CustomersModule,
     LibsUiLoginModule,
     AppRoutingModule,
   ],
@@ -34,3 +26,7 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule {}
+
+
+
+
